@@ -5,7 +5,10 @@ require_once "vendor/alikm6/php-pomo/l10n.php";
 unload_textdomain('default');
 load_textdomain('default', "./lang/pt-br/pt_BR.mo");
 
-echo __("Image");
+echo "Texto simples";
+echo __("load").'<br>';
 
-$n = 'image';
-echo sprintf(_("Você tem %d mensagens."), $n);
+echo "Parte do texto";
+echo sprintf(_("Você tem %s mensagens"), __('image')).'<br>';
+
+// echo sprintf(_ngettext("Você tem %d mensagem", "Você tem %d mensagens", 1), 5);
