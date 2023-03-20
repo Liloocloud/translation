@@ -1,0 +1,7 @@
+{
+    "require": {
+        "stichoza/google-translate-php": "^4.1",
+        "symfony/translation": "^5.4",
+        "alikm6/php-pomo": "^1.0"
+    }
+}
